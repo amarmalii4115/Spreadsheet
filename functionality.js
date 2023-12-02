@@ -100,3 +100,20 @@ function exportData() {
     link.href = url;
     link.click();
 }
+
+// function importData(event) {
+//     const fileInput = event.target;
+//     const file = fileInput.files[0];
+
+//     if (file) {
+//         const reader = new FileReader();
+//         reader.onload = function (e) {
+//             const importedData = JSON.parse(e.target.result);
+//             // Use the importedData as needed (e.g., update the state)
+//             console.log("Imported Data:", importedData);
+//         };
+//         reader.readAsText(file);
+//     } else {
+//         console.error("No file selected for import.");
+//     }
+// }

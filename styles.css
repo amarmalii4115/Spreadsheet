@@ -65,7 +65,7 @@
 
 
 
-#export{ 
+#export, #imports{ 
     cursor: pointer;
     font-size: 32px !important;
 }
